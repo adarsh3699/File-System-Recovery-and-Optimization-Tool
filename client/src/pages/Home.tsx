@@ -225,6 +225,34 @@ export function Home() {
           </Link>
         </motion.div>
       </div>
+
+      {/* Footer */}
+      <footer className="container mx-auto px-6 py-8 border-t border-gray-800">
+        <div className="text-center text-gray-400">
+          <p className="mb-2">
+            Developed by <strong className="text-white">Adarsh Suman</strong> (adarsh3699)
+          </p>
+          <div className="flex items-center justify-center gap-4 text-sm">
+            <a
+              href="https://github.com/adarsh3699/File-System-Recovery-and-Optimization-Tool"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400 transition-colors"
+            >
+              GitHub Repository
+            </a>
+            <span>•</span>
+            <a
+              href="https://www.bhemu.in/contact"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400 transition-colors"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

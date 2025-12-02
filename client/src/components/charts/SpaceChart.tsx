@@ -45,6 +45,12 @@ export function SpaceChart({ data }: SpaceChartProps) {
               borderRadius: '0.5rem',
               color: '#fff'
             }}
+            itemStyle={{
+              color: '#fff'
+            }}
+            labelStyle={{
+              color: '#fff'
+            }}
           />
           <Legend 
             wrapperStyle={{ color: '#9ca3af' }}

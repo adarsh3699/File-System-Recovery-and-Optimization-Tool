@@ -32,6 +32,12 @@ export function PerformanceChart({ data }: PerformanceChartProps) {
               borderRadius: '0.5rem',
               color: '#fff'
             }}
+            itemStyle={{
+              color: '#fff'
+            }}
+            labelStyle={{
+              color: '#fff'
+            }}
           />
           <Legend 
             wrapperStyle={{ color: '#9ca3af' }}

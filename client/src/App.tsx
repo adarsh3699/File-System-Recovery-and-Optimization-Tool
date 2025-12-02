@@ -48,7 +48,7 @@ function App() {
                   About
                 </Link>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/adarsh3699/File-System-Recovery-and-Optimization-Tool"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white transition-colors"

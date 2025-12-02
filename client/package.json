@@ -1,8 +1,15 @@
 {
-  "name": "client",
+  "name": "file-system-simulator",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "author": "Adarsh Suman (adarsh3699)",
+  "description": "Interactive File System Recovery and Optimization Tool - Educational visualization of file system operations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adarsh3699/File-System-Recovery-and-Optimization-Tool.git"
+  },
+  "homepage": "https://github.com/adarsh3699/File-System-Recovery-and-Optimization-Tool",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

@@ -30,6 +30,12 @@ export function OperationChart({ data }: OperationChartProps) {
               borderRadius: '0.5rem',
               color: '#fff'
             }}
+            itemStyle={{
+              color: '#fff'
+            }}
+            labelStyle={{
+              color: '#fff'
+            }}
           />
           <Bar 
             dataKey="count" 

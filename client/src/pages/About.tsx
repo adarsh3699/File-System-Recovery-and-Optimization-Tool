@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { BookOpen, Code, Database, Shield, Zap, Users, Github, Mail } from 'lucide-react';
+import { BookOpen, Code, Database, Shield, Zap, Users, Github } from 'lucide-react';
 
 const features = [
   {
@@ -234,14 +234,17 @@ export function About() {
             <Users className="w-6 h-6" />
             About This Project
           </h2>
-          <p className="text-gray-300 mb-6">
+          <p className="text-gray-300 mb-4">
             This File System Simulator is an educational tool designed to help students and developers
             understand the inner workings of file systems. Through interactive visualizations and
             animations, complex concepts become intuitive and engaging.
           </p>
+          <p className="text-gray-300 mb-6">
+            <strong>Developer:</strong> Adarsh Suman (adarsh3699)
+          </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/adarsh3699/File-System-Recovery-and-Optimization-Tool"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg border border-white/20 transition-colors"
@@ -250,11 +253,13 @@ export function About() {
               <span className="text-white">View on GitHub</span>
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="https://www.bhemu.in/contact"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg border border-white/20 transition-colors"
             >
-              <Mail size={18} />
-              <span className="text-white">Contact</span>
+              <Users size={18} />
+              <span className="text-white">Contact Developer</span>
             </a>
           </div>
         </div>
