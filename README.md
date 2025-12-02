@@ -609,6 +609,6 @@ If you find this tool helpful, please:
 
 _Star ⭐ this repository if you found it helpful!_
 
-**Version 1.0.0** | **December 2024**
+**Version 1.0.0** | **December 2025**
 
 </div>
