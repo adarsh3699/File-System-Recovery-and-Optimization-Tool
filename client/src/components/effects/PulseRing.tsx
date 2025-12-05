@@ -40,3 +40,5 @@ export function PulseRing({ x, y, color = '#3b82f6' }: PulseRingProps) {
   );
 }
 
+
+

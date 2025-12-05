@@ -73,3 +73,5 @@ export function SparkleEffect({ x, y, onComplete }: SparkleEffectProps) {
   );
 }
 
+
+
